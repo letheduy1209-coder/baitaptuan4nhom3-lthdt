@@ -1,18 +1,17 @@
 import java.util.Scanner;
 
-public class Bai4 {
+public class bai4tuan4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập số n: ");
+        System.out.print("Nhap n: ");
         int n = sc.nextInt();
+        int sum = 0;
 
-        int tong = 0;
         for (int i = 1; i <= n; i++) {
-            tong += i; 
+            sum += i;
         }
 
-        System.out.println("Tổng các số từ 1 đến " + n + " là: " + tong);
-
+        System.out.println("Tong tu 1 đen " + n + " la: " + sum);
         sc.close();
     }
 }
